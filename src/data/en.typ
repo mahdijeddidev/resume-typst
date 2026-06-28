@@ -33,11 +33,16 @@
       (
         position: "Front-End Web Engineer",
         date: "Jan 2024 – Present",
+        // items: (
+        //   [*Built* enterprise government platforms with React, Next.js, and TypeScript.],
+        //   [*Improved* Technical SEO and Core Web Vitals for better performance and search visibility.],
+        //   [*Designed* scalable front-end architecture using Redux Toolkit and Zustand.],
+        //   [*Collaborated* with backend, design, and QA teams throughout the product lifecycle.],
+        // ),
         items: (
           [*Built* enterprise government platforms with React, Next.js, and TypeScript.],
-          [*Improved* Technical SEO and Core Web Vitals for better performance and search visibility.],
+          [*Improved* Technical SEO and Core Web Vitals, increasing performance and search visibility.],
           [*Designed* scalable front-end architecture using Redux Toolkit and Zustand.],
-          [*Collaborated* with backend, design, and QA teams throughout the product lifecycle.],
         ),
         // items: (
         //   "Co-architected enterprise-grade government platforms using React, Next.js, and TypeScript.",
@@ -53,16 +58,20 @@
       (
         position: "React Native Mobile Developer",
         date: "Jul 2022 – Jan 2024",
-
         items: (
-          "Developed cross-platform React Native applications for Android and iOS.",
-
-          "Built custom native Android/iOS modules to integrate POS hardware for secure payment processing.",
-
-          "Delivered reliable fintech applications with secure API communication and offline-friendly workflows.",
-
-          "Maintained a shared codebase while ensuring native performance and consistent user experience.",
+          [*Developed* cross-platform React Native payment applications.],
+          [*Integrated* Android and iOS native modules with POS hardware.],
+          [*Maintained* a shared mobile codebase with secure API communication.],
         ),
+        // items: (
+        //   "Developed cross-platform React Native applications for Android and iOS.",
+
+        //   "Built custom native Android/iOS modules to integrate POS hardware for secure payment processing.",
+
+        //   "Delivered reliable fintech applications with secure API communication and offline-friendly workflows.",
+
+        //   "Maintained a shared codebase while ensuring native performance and consistent user experience.",
+        // ),
       ),
     ),
   ),
@@ -72,26 +81,23 @@
 #let projects = (
   (
     name: "Iran International Trade Single Window",
-
+    preview: "intsw.ir",
     url: "https://intsw.ir",
-
     description: "Enterprise government platform for international trade services built with React, Next.js, and TypeScript.",
   ),
 
   (
-    name: "Mishab POS",
-
-    url: "https://mishab.ir",
-
-    description: "Cross-platform React Native payment application with native POS terminal integration.",
+    name: "NTSW Android",
+    preview: "cafebazaar.ir",
+    url: "https://cafebazaar.ir/app/ir.ntsw",
+    description: "Android application for the National Trade Single Window ecosystem.",
   ),
 
   (
-    name: "NTSW Android",
-
-    url: "https://cafebazaar.ir/app/ir.ntsw",
-
-    description: "Android application for the National Trade Single Window ecosystem.",
+    name: "Mishab POS",
+    preview: "mishab.ir",
+    url: "https://mishab.ir",
+    description: "Cross-platform React Native payment application with native Android/iOS POS integration.",
   ),
 )
 
@@ -103,9 +109,8 @@
       "React",
       "Next.js",
       "TypeScript",
-      "JavaScript",
-      "HTML5",
-      "CSS3",
+      "antd",
+      "shadcn/ui",
       "Tailwind CSS",
     ),
   ),
@@ -122,23 +127,23 @@
   ),
 
   (
-    title: "State Management",
-
-    items: (
-      "Redux Toolkit",
-      "Zustand",
-    ),
-  ),
-
-  (
     title: "Backend",
 
     items: (
       "Node.js",
       "Express",
       "REST APIs",
-      "GraphQL",
       "MongoDB",
+    ),
+  ),
+
+  (
+    title: "State Management",
+
+    items: (
+      "Redux Toolkit",
+      "Zustand",
+      "Mobx"
     ),
   ),
 

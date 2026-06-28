@@ -36,18 +36,24 @@
       size: 8.8pt,
       fill: rgb("#666666"),
     )[
-      #link(profile.website_url)[#profile.website]
+      // #link(profile.website_url)[#profile.website]
+      #text(fill: rgb("#1a73e8"))[
+        #link(profile.website_url)[
+          #underline[#profile.website]
+        ]
+      ]
       •
       #link(profile.github_url)[#profile.github]
       •
       #link(profile.linkedin_url)[#profile.linkedin]
+
     ]
   ]
 
 
-#line(
-  length: 100%,
-  stroke: 0.4pt + rgb("#D8D8D8"),
-)
+  #line(
+    length: 100%,
+    stroke: 0.4pt + rgb("#D8D8D8"),
+  )
 
 ]

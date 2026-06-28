@@ -1,55 +1,67 @@
 #import "section.typ": section
 
 #let experience(experiences) = section("Experience")[
-  #set text(size: 8.6pt)
-
   #for company in experiences [
 
-    // Company name
+    // Company
     #text(
-      weight: "bold",
       size: 9.5pt,
+      weight: "bold",
     )[
-      #company.company
+      #company.company    #text(
+        size: 8pt,
+        fill: rgb("#666666"),
+      )[
+        • #company.location
+      ]
     ]
 
-    #text(
-      size: 8.2pt,
-      fill: rgb("#666666"),
-    )[
-      • #company.location
-    ]
+    // #text(
+    //   size: 8pt,
+    //   fill: rgb("#666666"),
+    // )[
+    //   • #company.location
+    // ]
 
     #v(2pt)
 
-    // Roles inside company
+    // Roles
     #for role in company.roles [
 
-      #table(
+      #grid(
         columns: (1fr, auto),
-        gutter: 0pt,
 
         [
-          #set text(weight: "semibold", size: 9pt)
-          #role.position
+          #text(
+            size: 8.8pt,
+            weight: "semibold",
+          )[
+            #role.position
+          ]
         ],
 
         [
-          #set text(size: 8.2pt, fill: rgb("#666666"))
-          #role.date
+          #text(
+            size: 8pt,
+            fill: rgb("#6B7280"),
+          )[
+            #role.date
+          ]
         ],
       )
 
-      #v(1pt)
+      #v(0.5pt)
 
-      #set text(size: 8.5pt)
+      // Bullets
+      #set text(size: 8pt)
 
       #for item in role.items [
-        • #item\
+        - #item \
       ]
 
-      #v(3pt)
+      #v(2pt)
     ]
 
+    #v(2pt)
   ]
 ]
