@@ -1,15 +1,17 @@
-#import "theme/theme.typ"
+#import "src/page.typ"
 
-#import "components/header.typ": header
+#import "src/resume.typ": resume
 
-#let profile = (
-  name: "Mahdi Jeddi",
-  title: "Senior Front-End & Mobile Engineer",
-  email: "mahdijeddi.dev@gmail.com",
-  website: "mahdijeddi.ir",
-  github: "github.com/mahdijeddidev",
-  linkedin: "linkedin.com/in/mahdi-jeddi",
-  phone: "+98 922 507 4085",
+#import "src/data/en.typ": experiences, profile, projects, skills, summary
+
+#set text(
+  font: "Inter",
 )
 
-#header(profile)
+#resume(
+  profile,
+  summary,
+  experiences,
+  projects,
+  skills,
+)
