@@ -10,21 +10,30 @@
   experiences,
   projectList,
   skillList,
+  section_titles,
 ) = [
   #header(profile)
 
   // summary
   #text(
-    size: 10.5pt,
+    size: 10pt,
     weight: "medium",
     fill: rgb("#444444"),
   )[
     #summary
   ]
-  #experience(experiences)
+  #experience(
+    section_titles.experience,
+    experiences,
+  )
 
-  #projects(projectList)
+  #projects(
+    section_titles.projects,
+    projectList,
+  )
 
-  #skills(skillList)
-
+  #skills(
+    section_titles.skills,
+    skillList,
+  )
 ]

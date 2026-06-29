@@ -1,6 +1,6 @@
 #import "section.typ": section
 
-#let projects(projects) = section("Projects")[
+#let projects(title ,projects) = section(title)[
   #for project in projects [
 
     #text(

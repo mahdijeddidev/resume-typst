@@ -1,6 +1,6 @@
 #import "section.typ": section
 
-#let experience(experiences) = section("Experience")[
+#let experience(title, experiences) = section(title)[
   #for company in experiences [
 
     // Company
@@ -15,13 +15,6 @@
         • #company.location
       ]
     ]
-
-    // #text(
-    //   size: 8pt,
-    //   fill: rgb("#666666"),
-    // )[
-    //   • #company.location
-    // ]
 
     #v(2pt)
 
@@ -54,9 +47,9 @@
 
       // Bullets
       #set text(size: 8pt)
-
+     
       #for item in role.items [
-        - #item \
+        - *#item.title:* #item.description \
       ]
 
       #v(2pt)

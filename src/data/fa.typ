@@ -18,144 +18,147 @@
   location: "تبریز، ایران",
 )
 
-#let summary = [
-  توسعه‌دهنده فرانت‌اند و موبایل با بیش از ۴ سال تجربه در طراحی و توسعه نرم‌افزارهای مقیاس‌پذیر وب و موبایل با استفاده از React، React Native و Next.js. دارای تجربه در توسعه سامانه‌های سازمانی، پروژه‌های حوزه فین‌تک، بهینه‌سازی Technical SEO و Core Web Vitals و همچنین توسعه ماژول‌های Native برای Android و iOS. علاقه‌مند به تولید نرم‌افزارهای سریع، پایدار و قابل نگهداری.
+#let summary = [مهندس ارشد فرانت‌اند و موبایل | ۴+ سال تجربه در توسعه اپلیکیشن‌های سازمانی وب و موبایل با React، Next.js ,React Native و TypeScript. متخصص در پلتفرم‌های دولتی، سامانه‌های پرداخت (فین‌تک)، سئوی فنی و توسعه ماژول‌های بومی اندروید .
 ]
 
 
 #let experiences = (
-(
-  company: "شرکت رهیافت پردازش آرکا",
-  location: "تبریز، ایران",
+  (
+    company: "شرکت رهیافت داده پردازی آرکا",
+    location: "تبریز، ایران",
 
-  roles: (
+    roles: (
+      (
+        position: "توسعه‌دهنده فرانت‌اند",
 
-    (
-      position: "توسعه‌دهنده فرانت‌اند",
+        date: "۱۴۰۳ - اکنون",
+        items: (
+          (
+            title: "سامانه‌های سازمانی و دولتی",
+            description: "طراحی و توسعه سامانه‌های سازمانی و دولتی از جمله «پنجره واحد تجارت بین‌الملل ایران» با تمرکز بر مقیاس‌پذیری، قابلیت نگهداری، دسترس‌پذیری و امنیت.",
+          ),
 
-      date: "۱۴۰۲ - اکنون",
-
-      items: (
-
-        [توسعه سامانه‌های سازمانی با React، Next.js و TypeScript.],
-
-        [بهبود Technical SEO و Core Web Vitals جهت افزایش سرعت و رتبه صفحات.],
-
-        [طراحی معماری Front-End با Redux Toolkit و Zustand.],
-
+          (
+            title: "سئوی فنی و بهینه‌سازی عملکرد",
+            description: "رهبری پروژه‌های بهینه‌سازی Technical SEO و Core Web Vitals که موجب بهبود سرعت بارگذاری، کیفیت ایندکس، خزش‌پذیری (crowlable)و افزایش دیده‌شدن سامانه‌ها در موتورهای جستجو شد.",
+          ),
+          (
+            title: "معماری فرانت‌اند",
+            description: "طراحی و پیاده‌سازی معماری مقیاس‌پذیر فرانت‌اند با بهره‌گیری از اصول SOLID، معماری مبتنی بر Feature، الگوهای طراحی، کامپوننت‌های قابل استفاده مجدد.",
+          ),
+        ),
       ),
-    ),
 
-    (
-      position: "توسعه‌دهنده React Native",
-
-      date: "۱۴۰۱ - ۱۴۰۲",
-
-      items: (
-
-        [توسعه اپلیکیشن‌های پرداخت با React Native.],
-
-        [پیاده‌سازی ماژول‌های Native برای Android و iOS جهت اتصال به دستگاه‌های POS.],
-
-        [نگهداری کد مشترک و ارتباط امن با APIها.],
-
+      (
+        position: "توسعه‌دهنده React Native",
+        date: "۱۴۰۲ - ۱۴۰۳",
+        items: (
+          (
+            title: "ادغام سخت‌افزار بومی",
+            description: "توسعه ماژول‌ها و Bridgeهای بومی Android برای برقراری ارتباط امن میان برنامه‌های React Native و پایانه‌های POS به‌منظور پردازش پرداخت و صدور فاکتور.",
+          ),
+          (
+            title: "برنامه‌های فین‌تک",
+            description: "توسعه راه‌حل‌های پرداخت چندسکویی با ارتباط امن API، عملکرد آفلاین و مدیریت قابل‌اعتماد تراکنش‌ها.",
+          ),
+          (
+            title: "توسعه چندسکویی",
+            description: "نگهداری از یک پایگاه کد یکپارچه React Native همراه با تضمین عملکرد بومی و تجربه کاربری یکنواخت در اندروید و iOS.",
+          ),
+        ),
       ),
     ),
   ),
-),
 )
 
 #let projects = (
+  (
+    name: "Iran International Trade Single Window",
 
-(
-  name: "Iran International Trade Single Window",
+    preview: "intsw.ir",
 
-  preview: "intsw.ir",
+    url: "https://intsw.ir",
 
-  url: "https://intsw.ir",
+    description: "سامانه جامع تجارت بین‌الملل مبتنی بر React، Next.js و TypeScript.",
+  ),
 
-  description: "سامانه جامع تجارت بین‌الملل مبتنی بر React، Next.js و TypeScript.",
-),
+  (
+    name: "NTSW Android",
 
-(
-  name: "NTSW Android",
+    preview: "cafebazaar.ir",
 
-  preview: "cafebazaar.ir",
+    url: "https://cafebazaar.ir/app/ir.ntsw",
 
-  url: "https://cafebazaar.ir/app/ir.ntsw",
+    description: "اپلیکیشن اندروید سامانه جامع تجارت.",
+  ),
 
-  description: "اپلیکیشن اندروید سامانه جامع تجارت.",
-),
+  (
+    name: "Mishab POS",
 
-(
-  name: "Mishab POS",
+    preview: "mishab.ir",
 
-  preview: "mishab.ir",
+    url: "https://mishab.ir",
 
-  url: "https://mishab.ir",
-
-  description: "اپلیکیشن پرداخت مبتنی بر React Native با اتصال Native به دستگاه POS.",
-),
-
+    description: "اپلیکیشن پرداخت مبتنی بر React Native با اتصال Native به دستگاه POS.",
+  ),
 )
 
 #let skills = (
+  (
+    title: "فرانت‌اند",
+    items: (
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Ant Design",
+      "shadcn/ui",
+      "Tailwind CSS",
+    ),
+  ),
 
-(
-title: "فرانت‌اند",
+  (
+    title: "موبایل",
+    items: (
+      "React Native",
+      "Android Studio",
+      "Java",
+      "Native Modules",
+    ),
+  ),
 
-items: (
-"React",
-"Next.js",
-"TypeScript",
-"Tailwind CSS",
-"Ant Design",
-"shadcn/ui",
-),
-),
+  (
+    title: "بک‌اند",
+    items: (
+      "Node.js",
+      "Express",
+      "REST APIs",
+      "MongoDB",
+    ),
+  ),
 
-(
-title: "موبایل",
+  (
+    title: "معماری نرم‌افزار",
+    items: (
+      "Design Patterns",
+      "Redux Toolkit",
+      "Zustand",
+      "Clean Code",
+      "Modular Architecture",
+    ),
+  ),
 
-items: (
-"React Native",
-"Android",
-"Java",
-"Native Modules",
-),
-),
-
-(
-title: "بک‌اند",
-
-items: (
-"Node.js",
-"Express",
-"REST APIs",
-"MongoDB",
-),
-),
-
-(
-title: "مدیریت وضعیت",
-
-items: (
-"Redux Toolkit",
-"Zustand",
-"MobX",
-),
-),
-
-(
-title: "سایر",
-
-items: (
-"Technical SEO",
-"Core Web Vitals",
-"Git",
-"Webpack",
-"Vite",
-),
-),
-
+  (
+    title: "بهینه‌سازی و ابزارها",
+    items: (
+      "Technical SEO",
+      "Core Web Vitals",
+      "React Query",
+      "Bundle Size Optimization",
+    ),
+  ),
+)
+#let section_titles = (
+  experience: "سوابق شغلی",
+  projects: "پروژه‌ها",
+  skills: "مهارت‌ها",
 )

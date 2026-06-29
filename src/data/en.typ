@@ -17,11 +17,7 @@
   location: "Tabriz, Iran",
 )
 
-#let summary = [Front-End and Mobile Engineer with 4 years of experience building scalable web and mobile applications using
-  React and React Native. Experienced in full-lifecycle product development, ranging from high-traffic government
-  platforms to specialized payment applications requiring native Android/iOS hardware integration. Combines strong
-  front-end optimization skills (Technical SEO, Core Web Vitals) with a fast-learning mindset and a solid familiarity
-  with backend tooling like Node.js .
+#let summary = [Senior Front-End & Mobile Engineer with 4+ years of experience building enterprise web and mobile applications using React, React Native, Next.js and TypeScript. Specialized in government platforms, fintech solutions, Technical SEO and native Android/iOS integrations.
 ]
 
 #let experiences = (
@@ -33,45 +29,40 @@
       (
         position: "Front-End Web Engineer",
         date: "Jan 2024 – Present",
-        // items: (
-        //   [*Built* enterprise government platforms with React, Next.js, and TypeScript.],
-        //   [*Improved* Technical SEO and Core Web Vitals for better performance and search visibility.],
-        //   [*Designed* scalable front-end architecture using Redux Toolkit and Zustand.],
-        //   [*Collaborated* with backend, design, and QA teams throughout the product lifecycle.],
-        // ),
         items: (
-          [*Built* enterprise government platforms with React, Next.js, and TypeScript.],
-          [*Improved* Technical SEO and Core Web Vitals, increasing performance and search visibility.],
-          [*Designed* scalable front-end architecture using Redux Toolkit and Zustand.],
+          (
+            title: "Enterprise Government Platforms",
+            description: "Designed and delivered enterprise-grade government systems, including the Iran International Trade Single Window, with a strong focus on scalability, maintainability, accessibility, and security.",
+          ),
+          (
+            title: "Technical SEO & Performance",
+            description: "Led Technical SEO and Core Web Vitals optimization initiatives, improving rendering performance, crawlability, indexing quality, and overall search visibility.",
+          ),
+
+          (
+            title: "Frontend Architecture",
+            description: "Architected scalable frontend solutions by applying SOLID principles, reusable component systems, feature-driven architecture, modern design patterns, and efficient state management with Redux Toolkit and Zustand.",
+          ),
         ),
-        // items: (
-        //   "Co-architected enterprise-grade government platforms using React, Next.js, and TypeScript.",
-
-        //   "Improved Technical SEO and Core Web Vitals, contributing to faster page loads and better search visibility.",
-
-        //   "Developed scalable front-end architecture using Redux Toolkit and Zustand.",
-
-        //   "Collaborated with backend engineers, UI/UX designers, and QA teams throughout the product lifecycle.",
-        // ),
       ),
 
       (
         position: "React Native Mobile Developer",
         date: "Jul 2022 – Jan 2024",
         items: (
-          [*Developed* cross-platform React Native payment applications.],
-          [*Integrated* Android and iOS native modules with POS hardware.],
-          [*Maintained* a shared mobile codebase with secure API communication.],
+          (
+            title: "Native Hardware Integration",
+            description: "Developed custom Android and iOS native modules and bridges enabling secure communication between React Native applications and POS terminals for payment processing and invoice generation.",
+          ),
+          (
+            title: "FinTech Applications",
+            description: "Built secure cross-platform payment applications featuring encrypted API communication, offline-first workflows, and reliable transaction processing under unstable network conditions.",
+          ),
+          (
+            title: "Cross-platform Development",
+            description: "Maintained a unified React Native codebase, accelerating release cycles while ensuring native performance and a consistent user experience across Android and iOS.",
+          ),
         ),
-        // items: (
-        //   "Developed cross-platform React Native applications for Android and iOS.",
-
-        //   "Built custom native Android/iOS modules to integrate POS hardware for secure payment processing.",
-
-        //   "Delivered reliable fintech applications with secure API communication and offline-friendly workflows.",
-
-        //   "Maintained a shared codebase while ensuring native performance and consistent user experience.",
-        // ),
       ),
     ),
   ),
@@ -104,7 +95,6 @@
 #let skills = (
   (
     title: "Frontend",
-
     items: (
       "React",
       "Next.js",
@@ -117,10 +107,9 @@
 
   (
     title: "Mobile",
-
     items: (
       "React Native",
-      "Android",
+      "Android Studio",
       "Java",
       "Native Modules",
     ),
@@ -138,24 +127,29 @@
   ),
 
   (
-    title: "State Management",
+    title: "Architecture",
 
     items: (
+      "Design Patterns",
       "Redux Toolkit",
       "Zustand",
-      "Mobx"
+      "Clean Code",
+      "Modular Architecture",
     ),
   ),
-
   (
-    title: "Other",
-
+    title: "Performance & Tools",
     items: (
       "Technical SEO",
       "Core Web Vitals",
-      "Git",
-      "Webpack",
-      "Vite",
+      "React Query",
+      "Bundle Size Optimization",
     ),
   ),
+)
+
+#let section_titles = (
+  experience: "Experience",
+  projects: "Projects",
+  skills: "Skills",
 )
